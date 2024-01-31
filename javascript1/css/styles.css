@@ -1,0 +1,11 @@
+#img{
+    position: relative;
+}
+
+.info{
+    background-color: aqua;
+    position: absolute;
+    width: 91%;
+    bottom: 85px;
+    display: none;
+}
