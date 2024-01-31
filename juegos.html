@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tienda de Videojuegos Gabo's Shop </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/contactos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="images/logopequeño2.PNG" type="image/jpg">
+  
+  <style>
+    .navbar {
+        background-color: #151617;
+      }
+
+      .navbar-dark .navbar-nav .nav-link {
+        color: #1193d4;
+      }
+
+    body {
+      background-color: #0d96ec;
+      font-family: Arial, sans-serif;
+    }
+    .header-content {
+      background-color: #0d7cec; /* Fondo azul */
+      color: #181717;
+      padding: 50px 0;
+      text-align: center;
+    }
+    .header-txt {
+      max-width: 800px;
+      margin: 0 auto;
+      color: #cce20a;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0; /* Comienza con opacidad cero */
+      }
+      100% {
+        opacity: 1; /* Termina con opacidad completa (1) */
+      }
+    }
+
+    .header-txt h1 span {
+      color: #17a2b8;
+    }
+    .buttons a {
+      background-color: #28a745; /* Botones verdes */
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin-right: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .buttons a:hover {
+      background-color: #218838; /* Cambio de color al pasar el ratón */
+    }
+    .popular, .product {
+      background-color: #0d7cec; /* Fondo azul */
+      color: #1a1818;
+      padding: 40px 0;
+      text-align: center;
+    }
+    .popular-content, .product-content {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .product-1 {
+      background-color: #ffffff; /* Fondo blanco para los cuadros de productos */
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      margin-bottom: 20px; /* Espacio entre cada cuadro */
+    }
+    .price {
+      margin-top: 10px;
+    }
+    .btn-2 {
+      background-color: #dc3545; /* Botones rojos para comprar */
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .btn-2:hover {
+      background-color: #c82333; /* Cambio de color al pasar el ratón */
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Gabo's Shop : Tienda de Servicios y Videojuegos </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Juegos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactos.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+      <main class="container">
+        <header>
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <img src="images/promos servicios/LOGO GABO.png" alt="neocenter-computador" width="170">
+            </div>
+            <div class="col-12 col-md-8 d-flex justify-content-end align-items-center">
+              <span class="me-3"><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a></span>
+              <span class="me-3"><a href="https://www.twitch.tv/fernandom1403" target="_blank"><i class="fa-brands fa-twitch fa-2x"></i></a></span>
+              <span class="me-3"><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a></span>
+              <span class="me-3"><a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok fa-2x"></i></a></span>
+            </div>
+          </div>
+        </header>
+        
+        </nav>
+      </main>
+
+<div class="header-content container">
+  <div class="header-txt">
+    <h1>Compra tu juego <span></span> <br>favorito aquí</h1>
+    <p>
+      ¡Bienvenido a nuestra tienda de videojuegos, tu destino definitivo para la mejor experiencia de juego! Sumérgete en un mundo de emociones con nuestra cuidada selección de títulos que abarcan géneros para todos los gustos. 
+      Desde aventuras épicas hasta emocionantes juegos multijugador, ofrecemos la más amplia variedad para satisfacer tus deseos de entretenimiento. ¿Buscas ofertas irresistibles? No busques más. Con precios competitivos, promociones exclusivas y acceso instantáneo a tus juegos favoritos, 
+      estamos comprometidos a brindarte la máxima satisfacción. Además, respaldamos cada compra con un excepcional servicio al cliente y garantías que te harán sentir seguro en cada transacción. ¡Prepárate para vivir la experiencia de juego definitiva!
+    </p>
+    
+  </div>
+</div>
+
+<section class="popular container">
+  <h2>Juegos más populares</h2>
+  <p></p>
+  <div class="popular-content">
+    <div class="product-1">
+        <img src="images/l5.jpg" alt="">
+        <div class="product-txt">
+            <h3>FORTNITE - PC</h3>
+            <p>Juego Oneshoot!</p>
+            <div class="price">
+                <p>GRATIS</p>
+                <a href="https://www.fortnite.com/?lang=es-ES" class="btn-2">Descargar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-1">
+        <img src="images/l6.jpg" alt="" width="">
+        <div class="product-txt">
+            <h3>DAYS GONE PC</h3>
+            <p>Voces: Inglés - Textos: Español</p>
+            <div class="price">
+                <p>31.50$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/days-gone-pc" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-1">
+        <img src="images/l7.jpg" alt="" >
+        <div class="product-txt">
+            <h3>Crash Team Rumble</h3>
+            <p>Voces: Inglés - Español - Peso del Juego: 6.3 GB</p>
+            <div class="price">
+                <p>5.50$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/crash-team-rumble-xbox-one" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-1">
+        <img src="images/l8.jpg" alt="">
+        <div class="product-txt">
+            <h3>WAR WORLD Z (ps5)</h3>
+            <p>Voces: Ingles - Textos: Español</p>
+            <div class="price">
+                <p>10.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/world-war-z-ps5" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-1">
+      <img src="images/l9.jpg" alt="" width="">
+      <div class="product-txt">
+          <h3>GEARS OF WAR 4 </h3>
+          <p>Voces: Español - Textos: Español</p>
+          <div class="price">
+              <p>8.00$ USD</p>
+              <a href="https://juegodigitalecuador.com/productos/gears-of-war-4-xbox-one" class="btn-2">Comprar</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="product-1">
+    <img src="images/rocket league.jpg" alt="" width="400">
+    <div class="product-txt">
+        <h3>ROCKET LEAGUE - PC </h3>
+        <p>Juego Autos Deportivos</p>
+        <div class="price">
+            <p>GRATIS</p>
+            <a href="https://www.rocketleague.com/es-es/" class="btn-2">DESCARGAR</a>
+        </div>
+    </div>
+</div>
+
+  </div>
+</section>
+
+<main class="product container">
+  <h2>Juegos para todo tipo de Consola</h2>
+  <div class="product-content">
+    <!-- Cuadros individuales para juegos -->
+
+    <div class="product-1">
+      <img src="images/promos servicios/fifa23.PNG" alt="">
+      <div class="product-txt">
+          <h3>FIFA 23 - EASPORTS - (PS4-5)</h3>
+          <p>Voces: Español Latino - Textos: Español Latino</p>
+          <div class="price">
+              <p> $ 7.00 USD </p>
+              <a href="https://juegodigitalecuador.com/productos/fifa-23-ps4" class="btn-2">Descargar</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="product-1">
+      <img src="images/promos servicios/wwe.PNG" alt="">
+      <div class="product-txt">
+          <h3>WWE - 2K2024 GOLD EDITION </h3>
+          <p>Fecha de Lanzamiento: Principal: 3/8/2024</p>
+          <div class="price">
+              <p> $ 29.00 USD </p>
+              <a href="https://juegodigitalecuador.com/productos/wwe-2k24-ps4-pre-orden" class="btn-2">Descargar</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="product-1">
+      <img src="images/promos servicios/mario king.PNG" alt="">
+      <div class="product-txt">
+          <h3>MARIO VS DONKEY KONG (S)</h3>
+          <p>- Idioma: Holandés, inglés, francés, alemán, japonés</p>
+          <div class="price">
+              <p> $ 24.00 USD </p>
+              <a href="https://juegodigitalecuador.com/productos/mario-vs-donkey-kong-nintendo-switch-pre-orden" class="btn-2">Descargar</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="product-1">
+      <img src="images/promos servicios/batman.PNG" alt="">
+      <div class="product-txt">
+          <h3>BATMAN - ARKHAM COLLECT </h3>
+          <p>CONTENDO: Batman: Arkham Asylu -  Arkham City </p>
+          <div class="price">
+              <p> $ 5.00 USD </p>
+              <a href="https://juegodigitalecuador.com/productos/3-juegos-en-1-batman-arkham-collection-ps4" class="btn-2">Descargar</a>
+          </div>
+      </div>
+    </div>
+
+    <div class="product-1" id="product1">
+        <img src="images/l1.jpg" alt="">
+        <div class="product-txt">
+            <h3>Halo Infitive</h3>
+            <p>Voces: Español - Plataforma: Xbox Series X/S</p>
+            <div class="price">
+                <p>17.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/halo-infinite-xbox-series-xs" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-1">
+        <img src="images/l2.jpg" alt="">
+        <div class="product-txt">
+            <h3>Valorant</h3>
+            <p>Un shooter táctico 5v5 basado en personajes</p>
+            <div class="price">
+                <p>GRATIS</p>
+                <a href="https://playvalorant.com/es-es/" class="btn-2">Descargar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-1">
+        <img src="images/l3.jpg" alt="" >
+        <div class="product-txt">
+            <h3>Clash Royale</h3>
+            <p>Voces: Inglés - Español</p>
+            <div class="price">
+                <p>2.50$ USD</p>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-1">
+        <img src="images/l4.jpg" alt="">
+        <div class="product-txt">
+            <h3>CYBERPUNK</h3>
+            <p>Voces: Inglés- Español</p>
+            <div class="price">
+                <p>21.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/cyberpunk-2077-phantom-liberty-dlc-ps5" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/promos servicios/call.PNG" alt="">
+        <div class="product-txt">
+            <h3>CALL OF DUTY MODER WAR 2</h3>
+            <p>Voces: Inglés - Español Latino Textos: Español Latino</p>
+            <div class="price">
+                <p>15.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/call-of-duty-modern-warfare-2-ps4" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/promos servicios/lastofus.PNG" alt="">
+        <div class="product-txt">
+            <h3>THE LAST OF US PARTE II PS4</h3>
+            <p>Voces: Español Latino - Textos: Español Latino </p>
+            <div class="price">
+                <p>9.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/the-last-of-us-part-ii-ps4" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/promos servicios/spider.PNG" alt="">
+        <div class="product-txt">
+            <h3>M Spiderman Remastered (PS5)</h3>
+            <p>Voces: Español - Textos: Español </p>
+            <div class="price">
+                <p>11.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/marvels-spider-man-remastered-ps5" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/promos servicios/red.png" alt="" width="250">
+        <div class="product-txt">
+            <h3>Red Dead Redemption II (PS4)</h3>
+            <p> Voces: Inglés - Textos: Español</p>
+            <div class="price">
+                <p>17.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/red-dead-redemption-ps4" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/promos servicios/sonic.PNG" alt="" width="250">
+        <div class="product-txt">
+            <h3>SONIC FRONTIERS TWO (PS4)</h3>
+            <p>Voces: Inglés - Español Latino</p>
+            <div class="price">
+                <p>40.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/sonic-frontiers-digital-deluxe-edition-ps4" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/g6.jpg" alt="" width="230">
+        <div class="product-txt">
+            <h3>GRAND THEF AUTO V (PS3)</h3>
+            <p>Audios: Ingles - Subtitulos: Español</p>
+            <div class="price">
+                <p>3.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/grand-theft-auto-5-gta-v-gta-5" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/g1.jpg" alt="" width="230">
+        <div class="product-txt">
+            <h3>CALL OF DUTY  GHOSTS (PS3)</h3>
+            <p> Voces: Español - Textos: Español</p>
+            <div class="price">
+                <p>3.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/call-of-duty-ghosts-gold-edition-ps3" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/g2.jpg" alt="" width="230">
+        <div class="product-txt">
+            <h3>BATTLEFIELD 2042 - ELECT </h3>
+            <p>Voces: Inglés - Textos: Español</p>
+            <div class="price">
+                <p>10.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/battlefield-2042-ps4" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/g3.jpg" alt="" width="230">
+        <div class="product-txt">
+            <h3>HALO 5 - GUARDIANS - (XBOX)</h3>
+                <p>Voces: Español - Textos: Español</p>
+            <div class="price">
+                <p>7.00$ USD</p>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/g5.jpg" alt="" width="230">
+        <div class="product-txt">
+            <h3>CRASH TEAM RACING PRO</h3>
+            <p>Voces: Español - Textos: Español</p>
+            <div class="price">
+                <p>5.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/crash-team-racing-nitro-fueled-ps4" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/g7.jpg" alt="" width="230">
+        <div class="product-txt">
+            <h3>THE SURGE - FOCUS(PS4-PR)</h3>
+            <p>Voces: Ingles / Frances / Aleman - Textos: Español  </p>
+            <div class="price">
+                <p>7.00$ USD</p>
+                <a href="#" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="product-1">
+        <img src="images/promos servicios/call3.PNG" alt="" width="230">
+        <div class="product-txt">
+            <h3>CALL OF DUTY MODERN W</h3>
+            <p>Voces: Español Latino - Inglés</p>
+            <div class="price">
+                <p>48.00$ USD</p>
+                <a href="https://juegodigitalecuador.com/productos/call-of-duty-modern-warfare-iii-ps5" class="btn-2">Comprar</a>
+            </div>
+        </div>
+      </div>
+
+
+
+    </main>
+  </main>
+
+  <footer class="bg-white text-white text-center py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <p>Contacto: info@tiendagaboshop.com</p>
+          <p>Teléfono: +593956874582</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <p><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></p>
+          <p><a href="https://api.whatsapp.com/send?phone=593994507458" target="_blank"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a></p>
+        </div>
+        <div class="col-12 col-md-4">
+          <p>Dirección: Av. Colón, Quito, Ecuador</p>
+          <p>Creado por Fernando Freire 2024</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarModal()">&times;</span>
+        <p id="modal-info">Información del producto</p>
+    </div>
+</div>
+
+</body>
+</html>
